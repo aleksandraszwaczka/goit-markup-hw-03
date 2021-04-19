@@ -1,0 +1,151 @@
+:root {
+--main-font: 'Roboto', sans-serif;
+--main-color: #212121;
+}
+
+body {
+   font-family: var(--main-font);
+   color: var(--main-color);
+}
+
+
+/* HEADER */
+.logo {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   letter-spacing: 0.03em;
+   line-height: 1.192;
+   text-decoration: none;
+   cursor: pointer;
+   color: #000;
+}
+
+.logo-first-part {
+   color: #2196f3;
+}
+
+.header-links {
+   text-decoration: none;
+   text-transform: capitalize;
+   color: #212121;
+}
+
+.header-contacts {  
+    color: #757575;
+    font-style: normal;
+}
+
+
+/* MAIN */
+.primary-heading {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.main-first-section-btn {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.third-heading{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.our-team-description {
+    text-align: center;
+}
+
+.description-content-text {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+
+.secondary-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-team {
+    background-color: #F5F4FA;
+}
+
+/* FOOTER */
+
+.footer-contacts {
+    font-style: normal;
+}
+
+/* PORTFOLIO */
+
+.choosing-list-btn {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   background-color: #F5F4FA;
+}
+
+.choosing-list-btn:hover,
+.choosing-list-btn:focus {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+
+
+/* WSPÓŁNE */
+.header-contacts,
+.footer-contacts {
+   text-decoration: none;
+}
+
+.header-links:hover,
+.header-links:focus,
+.header-contacts:hover,
+.header-contacts:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+   color: #2196F3;
+}
+
+.main-first-section-btn,
+.footer-contacts {
+    color: #fff;
+}
+
+.our-team-description,
+.choosing-images-category {
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+}
+
+.description-content-text,
+.our-team-description,
+.choosing-images-category {
+    color: #757575;
+}
+.main-first-section,
+.footer {
+    background-color: #2F303A;
+}
