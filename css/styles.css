@@ -120,7 +120,6 @@ img {
   width: 696px;
   padding-top: 200px;
   margin: auto;
-  text-align: center;
   padding-bottom: 30px;
 }
 
@@ -249,13 +248,12 @@ img {
   margin-bottom: 30px;
 }
 
-/* FOOTER */
+/* =============FOOTER============= */
 
 .footer .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
- 
+  align-items: flex-start;
 }
 
 .logo-footer {
@@ -278,7 +276,15 @@ img {
   margin-bottom: 60px;
 }
 
-/* PORTFOLIO */
+/* ============PORTFOLIO============= */
+.choosing-list .container {
+  display: flex;
+  justify-content: center;
+}
+
+.choosing-list-item {
+  display: inline-block;
+}
 
 .choosing-list-btn {
   font-weight: 500;
@@ -287,6 +293,10 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: none;
+  margin: 94px 8px 50px;
 }
 
 .choosing-list-btn:hover,
@@ -295,8 +305,40 @@ img {
   color: #fff;
 }
 
-/* WSPÓŁNE */
+.choosing-images-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
+.choosing-images-list-item {
+  width: 370px;
+  margin: 0px 30px 30px 0px;
+}
+
+.choosing-images-list-item:nth-child(3n + 3) {
+  margin: 0px;
+}
+
+.choosing-images-list-img {
+  width: 370px;
+  height: 294px;
+  margin-bottom: 20px;
+}
+
+.portfolio-third-heading {
+  margin: 0px 24px 4px 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.choosing-images-list-item .choosing-images-category {
+  padding: 0px 24px 20px 24px;
+}
+
+/* ============WSPÓŁNE============ */
 
 .header-links:hover,
 .header-links:focus,
